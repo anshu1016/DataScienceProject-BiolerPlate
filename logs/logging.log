@@ -205,3 +205,77 @@ Source-Age: 0
 ]
 [2025-06-05 12:14:59,620 : INFO : data_ingestion : Zip file extracted to artifacts/data_ingestion]
 [2025-06-05 12:14:59,621 : INFO : main : >>>>> stage DATA INGESTION STAGE completed! <<<<<]
+[2025-06-05 17:02:55,443 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 17:02:55,460 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 17:02:55,476 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 17:03:50,921 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 17:03:50,926 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 17:03:50,932 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 17:04:51,222 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 17:04:51,230 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 17:04:51,235 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 17:04:51,238 : INFO : shared : created directory at : artifacts]
+[2025-06-05 17:04:51,241 : INFO : shared : created directory at : artifacts/data_validation]
+[2025-06-05 17:04:51,287 : INFO : 4252915885 : Column chlorides is not in the schema.]
+[2025-06-05 17:04:51,290 : INFO : 4252915885 : Column pH is not in the schema.]
+[2025-06-05 17:04:51,303 : WARNING : 4252915885 : Column 'chlordes' not found in dataset]
+[2025-06-05 17:08:27,053 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 17:08:27,056 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 17:08:27,061 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 17:08:27,063 : INFO : shared : created directory at : artifacts]
+[2025-06-05 17:08:27,063 : INFO : shared : created directory at : artifacts/data_validation]
+[2025-06-05 17:08:27,071 : INFO : 4252915885 : Column chlorides is not in the schema.]
+[2025-06-05 17:08:27,077 : INFO : 4252915885 : Column pH is not in the schema.]
+[2025-06-05 17:08:27,086 : WARNING : 4252915885 : Column 'chlordes' not found in dataset]
+[2025-06-05 17:09:49,979 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 17:09:49,982 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 17:09:49,996 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 17:09:49,998 : INFO : shared : created directory at : artifacts]
+[2025-06-05 17:09:49,999 : INFO : shared : created directory at : artifacts/data_validation]
+[2025-06-05 17:09:58,393 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 17:09:58,395 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 17:09:58,400 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 17:09:58,402 : INFO : shared : created directory at : artifacts]
+[2025-06-05 17:09:58,405 : INFO : shared : created directory at : artifacts/data_validation]
+[2025-06-05 17:38:36,367 : INFO : main : >>>>> stage DATA INGESTION STAGE started <<<<<]
+[2025-06-05 17:38:36,377 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 17:38:36,387 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 17:38:36,407 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 17:38:36,415 : INFO : shared : created directory at : artifacts]
+[2025-06-05 17:38:36,415 : INFO : shared : created directory at : artifacts/data_ingestion]
+[2025-06-05 17:38:38,660 : INFO : data_ingestion : artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: A97C:1964FB:16BA23:2FFEA0:684188C5
+Accept-Ranges: bytes
+Date: Thu, 05 Jun 2025 12:08:38 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4722-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1749125318.940178,VS0,VE373
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 557b1183bcdfbbac7462aa8a94d95ed2e9cf6baf
+Expires: Thu, 05 Jun 2025 12:13:38 GMT
+Source-Age: 0
+
+]
+[2025-06-05 17:38:38,667 : INFO : data_ingestion : Zip file extracted to artifacts/data_ingestion]
+[2025-06-05 17:38:38,667 : INFO : main : >>>>> stage DATA INGESTION STAGE completed! <<<<<]
+[2025-06-05 17:38:38,667 : INFO : main : >>>>> stage DATA VALIDATION STAGE started <<<<<]
+[2025-06-05 17:38:38,678 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 17:38:38,678 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 17:38:38,678 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 17:38:38,682 : INFO : shared : created directory at : artifacts]
+[2025-06-05 17:38:38,682 : INFO : shared : created directory at : artifacts/data_validation]
+[2025-06-05 17:38:38,729 : INFO : main : >>>>> stage DATA VALIDATION STAGE completed! <<<<<]
