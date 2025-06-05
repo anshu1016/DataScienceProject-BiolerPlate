@@ -8,10 +8,11 @@ project_name = 'DataScienceProject'
 
 list_of_files = [
     ".github/workflows/.gitkeep",
-    f"src/{project_name}/__inint__.py",
+    f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/utils/common/__init__.py",
+    f"src/{project_name}/utils/common.py",
     f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/config/configuration/__init__.py",
     f"src/{project_name}/pipeline/__init__.py",
@@ -27,7 +28,8 @@ list_of_files = [
     "setup.py",
     "research/research.ipynb",
     "templates/index.html",
-    'rough.txt'
+    'rough.txt',
+    'README.md'
 ]
 
 

@@ -1,0 +1,207 @@
+[2025-06-04 15:32:36,777 : INFO : main : Welcome to our Project]
+[2025-06-05 12:01:19,405 : INFO : main : >>>>> stage DATA INGESTION STAGE started <<<<<]
+[2025-06-05 12:01:19,419 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 12:01:19,435 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 12:01:19,435 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 12:01:19,436 : ERROR : main : Yaml file schema.yaml is empty!]
+Traceback (most recent call last):
+  File "C:\ML_OPS\Projects\project1\src\DataScienceProject\utils\shared.py", line 28, in read_yaml
+    return ConfigBox(content)
+  File "box\\box.py", line 295, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ML_OPS\Projects\project1\main.py", line 7, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\ML_OPS\Projects\project1\src\DataScienceProject\pipeline\data_ingestion_pipeline.py", line 11, in initiate_data_ingestion
+    config = ConfigurationManager()
+  File "C:\ML_OPS\Projects\project1\src\DataScienceProject\config\configuration.py", line 13, in __init__
+    self.schema=read_yaml(schema_filepath)
+  File "C:\ML_OPS\Projects\project1\myvenv\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "C:\ML_OPS\Projects\project1\src\DataScienceProject\utils\shared.py", line 30, in read_yaml
+    raise ValueError(f'Yaml file {path_to_yaml} is empty!')
+ValueError: Yaml file schema.yaml is empty!
+[2025-06-05 12:02:41,389 : INFO : main : >>>>> stage DATA INGESTION STAGE started <<<<<]
+[2025-06-05 12:02:41,389 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 12:02:41,390 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 12:02:41,392 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 12:02:41,392 : ERROR : main : Argument path_to_directories of type <class 'str'> to <function create_directories at 0x0000020C3323CA60> does not match annotation type <class 'list'>]
+Traceback (most recent call last):
+  File "C:\ML_OPS\Projects\project1\main.py", line 7, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\ML_OPS\Projects\project1\src\DataScienceProject\pipeline\data_ingestion_pipeline.py", line 11, in initiate_data_ingestion
+    config = ConfigurationManager()
+  File "C:\ML_OPS\Projects\project1\src\DataScienceProject\config\configuration.py", line 15, in __init__
+    create_directories(self.config.artifacts_root)
+  File "C:\ML_OPS\Projects\project1\myvenv\lib\site-packages\ensure\main.py", line 833, in __call__
+    raise EnsureError(msg.format(arg=arg, f=self.f, t=templ, valt=type(value)))
+ensure.main.EnsureError: Argument path_to_directories of type <class 'str'> to <function create_directories at 0x0000020C3323CA60> does not match annotation type <class 'list'>
+[2025-06-05 12:04:48,927 : INFO : main : >>>>> stage DATA INGESTION STAGE started <<<<<]
+[2025-06-05 12:04:48,928 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 12:04:48,929 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 12:04:48,929 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 12:04:48,930 : INFO : shared : created directory at : artifacts]
+[2025-06-05 12:04:48,930 : INFO : shared : created directory at : articacts/data_ingestion]
+[2025-06-05 12:04:48,939 : ERROR : main : "'ConfigBox' object has no attribute 'source'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'source'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'source'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'source'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'source'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'source'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'source'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ML_OPS\Projects\project1\main.py", line 7, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\ML_OPS\Projects\project1\src\DataScienceProject\pipeline\data_ingestion_pipeline.py", line 12, in initiate_data_ingestion
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "C:\ML_OPS\Projects\project1\src\DataScienceProject\config\configuration.py", line 22, in get_data_ingestion_config
+    source_url = config.source.url,
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source'"
+[2025-06-05 12:06:13,943 : INFO : main : >>>>> stage DATA INGESTION STAGE started <<<<<]
+[2025-06-05 12:06:13,944 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 12:06:13,945 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 12:06:13,945 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 12:06:13,946 : INFO : shared : created directory at : artifacts]
+[2025-06-05 12:06:13,946 : INFO : shared : created directory at : articacts/data_ingestion]
+[2025-06-05 12:06:14,846 : ERROR : main : [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.gzip']
+Traceback (most recent call last):
+  File "C:\ML_OPS\Projects\project1\main.py", line 7, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\ML_OPS\Projects\project1\src\DataScienceProject\pipeline\data_ingestion_pipeline.py", line 14, in initiate_data_ingestion
+    data_ingestion.download_file()
+  File "C:\ML_OPS\Projects\project1\src\DataScienceProject\components\data_ingestion.py", line 16, in download_file
+    filename,headers = request.urlretrieve(
+  File "C:\Users\arunshukla\AppData\Local\Programs\Python\Python310\lib\urllib\request.py", line 251, in urlretrieve
+    tfp = open(filename, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.gzip'
+[2025-06-05 12:07:59,419 : INFO : main : >>>>> stage DATA INGESTION STAGE started <<<<<]
+[2025-06-05 12:07:59,452 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 12:07:59,453 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 12:07:59,454 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 12:07:59,456 : INFO : shared : created directory at : artifacts]
+[2025-06-05 12:07:59,457 : INFO : shared : created directory at : artifacts/data_ingestion]
+[2025-06-05 12:08:00,761 : INFO : data_ingestion : artifacts/data_ingestion/data.gzip download! with following info: 
+Server: nginx/1.27.5
+Date: Thu, 05 Jun 2025 06:37:59 GMT
+Transfer-Encoding: chunked
+Connection: close
+
+]
+[2025-06-05 12:08:00,776 : ERROR : main : File is not a zip file]
+Traceback (most recent call last):
+  File "C:\ML_OPS\Projects\project1\main.py", line 7, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\ML_OPS\Projects\project1\src\DataScienceProject\pipeline\data_ingestion_pipeline.py", line 15, in initiate_data_ingestion
+    data_ingestion.extract_zip_file()
+  File "C:\ML_OPS\Projects\project1\src\DataScienceProject\components\data_ingestion.py", line 31, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\arunshukla\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1267, in __init__
+    self._RealGetContents()
+  File "C:\Users\arunshukla\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1334, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-06-05 12:09:15,491 : INFO : main : >>>>> stage DATA INGESTION STAGE started <<<<<]
+[2025-06-05 12:09:15,506 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 12:09:15,508 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 12:09:15,509 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 12:09:15,509 : INFO : shared : created directory at : artifacts]
+[2025-06-05 12:09:15,510 : INFO : shared : created directory at : artifacts/data_ingestion]
+[2025-06-05 12:09:16,840 : INFO : data_ingestion : artifacts/data_ingestion/data.zip download! with following info: 
+Server: nginx/1.27.5
+Date: Thu, 05 Jun 2025 06:39:15 GMT
+Transfer-Encoding: chunked
+Connection: close
+
+]
+[2025-06-05 12:09:16,856 : ERROR : main : File is not a zip file]
+Traceback (most recent call last):
+  File "C:\ML_OPS\Projects\project1\main.py", line 7, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\ML_OPS\Projects\project1\src\DataScienceProject\pipeline\data_ingestion_pipeline.py", line 15, in initiate_data_ingestion
+    data_ingestion.extract_zip_file()
+  File "C:\ML_OPS\Projects\project1\src\DataScienceProject\components\data_ingestion.py", line 31, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\arunshukla\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1267, in __init__
+    self._RealGetContents()
+  File "C:\Users\arunshukla\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1334, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-06-05 12:14:58,732 : INFO : main : >>>>> stage DATA INGESTION STAGE started <<<<<]
+[2025-06-05 12:14:58,763 : INFO : shared : Yaml File: config\config.yaml loaded successfully!]
+[2025-06-05 12:14:58,764 : INFO : shared : Yaml File: params.yaml loaded successfully!]
+[2025-06-05 12:14:58,765 : INFO : shared : Yaml File: schema.yaml loaded successfully!]
+[2025-06-05 12:14:58,766 : INFO : shared : created directory at : artifacts]
+[2025-06-05 12:14:58,767 : INFO : shared : created directory at : artifacts/data_ingestion]
+[2025-06-05 12:14:59,602 : INFO : data_ingestion : artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4613:204B32:1626C1:30EFE1:68413CEA
+Accept-Ranges: bytes
+Date: Thu, 05 Jun 2025 06:44:59 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4744-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1749105899.793317,VS0,VE350
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 21aa43e5724d4afceb66e9a6e9092c7b052e1757
+Expires: Thu, 05 Jun 2025 06:49:59 GMT
+Source-Age: 0
+
+]
+[2025-06-05 12:14:59,620 : INFO : data_ingestion : Zip file extracted to artifacts/data_ingestion]
+[2025-06-05 12:14:59,621 : INFO : main : >>>>> stage DATA INGESTION STAGE completed! <<<<<]
