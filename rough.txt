@@ -1,0 +1,132 @@
+<!-- templates/index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wine Quality Predictor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        main {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+
+    {% include 'header.html' %}
+
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Predict Wine Quality</h2>
+
+        <form action="/predict" method="POST" class="row g-3">
+
+            <div class="col-md-6">
+                <label for="fixed_acidity" class="form-label">Fixed Acidity</label>
+                <input type="number" step="any" class="form-control" name="fixed_acidity" id="fixed_acidity" placeholder="4.6 to 15.9" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="volatile_acidity" class="form-label">Volatile Acidity</label>
+                <input type="number" step="any" class="form-control" name="volatile_acidity" id="volatile_acidity" placeholder="0.12 to 1.58" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="citric_acid" class="form-label">Citric Acid</label>
+                <input type="number" step="any" class="form-control" name="citric_acid" id="citric_acid" placeholder="0.0 to 1.0" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="residual_sugar" class="form-label">Residual Sugar</label>
+                <input type="number" step="any" class="form-control" name="residual_sugar" id="residual_sugar" placeholder="0.9 to 15.5" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="chlorides" class="form-label">Chlorides</label>
+                <input type="number" step="any" class="form-control" name="chlorides" id="chlorides" placeholder="0.012 to 0.611" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="free_sulfur_dioxide" class="form-label">Free Sulfur Dioxide</label>
+                <input type="number" step="any" class="form-control" name="free_sulfur_dioxide" id="free_sulfur_dioxide" placeholder="1 to 72" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="total_sulfur_dioxide" class="form-label">Total Sulfur Dioxide</label>
+                <input type="number" step="any" class="form-control" name="total_sulfur_dioxide" id="total_sulfur_dioxide" placeholder="6 to 289" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="density" class="form-label">Density</label>
+                <input type="number" step="any" class="form-control" name="density" id="density" placeholder="0.990 to 1.004" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="pH" class="form-label">pH</label>
+                <input type="number" step="any" class="form-control" name="pH" id="pH" placeholder="2.74 to 4.01" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="sulphates" class="form-label">Sulphates</label>
+                <input type="number" step="any" class="form-control" name="sulphates" id="sulphates" placeholder="0.33 to 2.0" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="alcohol" class="form-label">Alcohol</label>
+                <input type="number" step="any" class="form-control" name="alcohol" id="alcohol" placeholder="8.4 to 14.9" required>
+            </div>
+
+            <div class="col-12 text-center mt-3">
+                <button type="submit" class="btn btn-primary px-5 py-2">Predict</button>
+            </div>
+        </form>
+
+        {% if train_status %}
+        <div class="alert alert-success text-center mt-4" role="alert">
+            {{ train_status }}
+        </div>
+        {% endif %} {% if prediction is defined %}
+        <div class="alert alert-info mt-4 text-center" role="alert">
+            <h4 class="alert-heading">Prediction Result</h4>
+            <p>The predicted wine quality score is: <strong>{{ prediction }}</strong></p>
+        </div>
+        {% endif %}
+
+
+    </main>
+
+    {% include 'footer.html' %}
+
+</body>
+
+</html> -->
+
+
+
+
+
+
+<!-- templates/header.html
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+    <a class="navbar-brand" href="#">🍷 Wine Predictor</a>
+    <div class="ms-auto">
+        <a class="btn btn-outline-light me-2" href="/train">
+            <i class="fas fa-cogs"></i> Train the Model
+        </a>
+        <a class="btn btn-outline-light me-2" href="https://github.com/anshu1016/DataScienceProject-BiolerPlate" target="_blank">
+            <i class="fab fa-github"></i> Source Code
+        </a>
+        <a class="btn btn-outline-light" href="https://winequality.onrender.com" target="_blank">
+            <i class="fas fa-play-circle"></i> Live App
+        </a>
+    </div>
+</nav> -->

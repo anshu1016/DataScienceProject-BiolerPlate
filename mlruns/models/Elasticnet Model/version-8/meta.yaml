@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1749207965300
+current_stage: None
+description: null
+last_updated_timestamp: 1749207965300
+name: Elasticnet Model
+run_id: 4614aa91d892483fa4e0cb57cb4161dc
+run_link: null
+source: file:///C:/ML_OPS/Projects/project1/mlruns/0/4614aa91d892483fa4e0cb57cb4161dc/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/ML_OPS/Projects/project1/mlruns/0/4614aa91d892483fa4e0cb57cb4161dc/artifacts/model
+user_id: null
+version: 8

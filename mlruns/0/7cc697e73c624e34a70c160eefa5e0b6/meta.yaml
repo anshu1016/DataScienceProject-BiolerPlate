@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/ML_OPS/Projects/project1/mlruns/0/7cc697e73c624e34a70c160eefa5e0b6/artifacts
+end_time: 1749206861957
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7cc697e73c624e34a70c160eefa5e0b6
+run_name: ambitious-yak-473
+run_uuid: 7cc697e73c624e34a70c160eefa5e0b6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749206856794
+status: 3
+tags: []
+user_id: arunshukla

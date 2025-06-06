@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/ML_OPS/Projects/project1/mlruns/0/4ee9f88eb9c54940b0292dc4ec89c241/artifacts
+end_time: 1749206692009
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ee9f88eb9c54940b0292dc4ec89c241
+run_name: burly-swan-920
+run_uuid: 4ee9f88eb9c54940b0292dc4ec89c241
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749206667776
+status: 3
+tags: []
+user_id: arunshukla

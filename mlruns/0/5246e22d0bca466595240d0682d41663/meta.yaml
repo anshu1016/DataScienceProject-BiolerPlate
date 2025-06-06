@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/ML_OPS/Projects/project1/mlruns/0/5246e22d0bca466595240d0682d41663/artifacts
+end_time: 1749207166771
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5246e22d0bca466595240d0682d41663
+run_name: gentle-deer-548
+run_uuid: 5246e22d0bca466595240d0682d41663
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749207161256
+status: 3
+tags: []
+user_id: arunshukla

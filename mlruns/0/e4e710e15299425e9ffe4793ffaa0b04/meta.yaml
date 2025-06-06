@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/ML_OPS/Projects/project1/mlruns/0/e4e710e15299425e9ffe4793ffaa0b04/artifacts
+end_time: 1749208097174
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e4e710e15299425e9ffe4793ffaa0b04
+run_name: capricious-owl-266
+run_uuid: e4e710e15299425e9ffe4793ffaa0b04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749208093224
+status: 3
+tags: []
+user_id: arunshukla

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/ML_OPS/Projects/project1/mlruns/0/4614aa91d892483fa4e0cb57cb4161dc/artifacts
+end_time: 1749207965350
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4614aa91d892483fa4e0cb57cb4161dc
+run_name: sedate-worm-630
+run_uuid: 4614aa91d892483fa4e0cb57cb4161dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749207960461
+status: 3
+tags: []
+user_id: arunshukla

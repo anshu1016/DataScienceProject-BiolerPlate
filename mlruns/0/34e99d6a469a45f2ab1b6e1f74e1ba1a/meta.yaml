@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/ML_OPS/Projects/project1/mlruns/0/34e99d6a469a45f2ab1b6e1f74e1ba1a/artifacts
+end_time: 1749207302744
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 34e99d6a469a45f2ab1b6e1f74e1ba1a
+run_name: nosy-grouse-203
+run_uuid: 34e99d6a469a45f2ab1b6e1f74e1ba1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749207298482
+status: 3
+tags: []
+user_id: arunshukla
